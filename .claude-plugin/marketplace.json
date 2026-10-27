@@ -1,0 +1,52 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "interview-skills",
+  "description": "Skills for time-boxed live coding sessions: interview-mode orchestrates minimal output, expectation-driven slices, parallel workstreams and failure-mode review.",
+  "owner": {
+    "name": "ciflikli"
+  },
+  "plugins": [
+    {
+      "name": "interview-mode",
+      "description": "Start a time-boxed live coding session (interview, take-home walkthrough, timed demo).",
+      "version": "1.0.0",
+      "source": "./plugins/interview-mode",
+      "category": "productivity"
+    },
+    {
+      "name": "minimal",
+      "description": "Minimal-output mode for time-boxed, high-pressure sessions (live coding interviews, pairing, demos).",
+      "version": "1.0.0",
+      "source": "./plugins/minimal",
+      "category": "productivity"
+    },
+    {
+      "name": "edd",
+      "description": "Expectation-Driven Development, a lightweight TDD for AI-built code.",
+      "version": "1.0.0",
+      "source": "./plugins/edd",
+      "category": "productivity"
+    },
+    {
+      "name": "plan-split",
+      "description": "Split a feature or brief into parallel workstreams that several agents (Claude subagents or Codex) can build at once without blocking each other.",
+      "version": "1.0.0",
+      "source": "./plugins/plan-split",
+      "category": "productivity"
+    },
+    {
+      "name": "failure-review",
+      "description": "Fast review of a diff for the ways it breaks in production: re-runs, partial failure and crashes, duplicates, bad input, flaky dependencies, concurrency and locking, ordering, resource limits, secrets/PII.",
+      "version": "1.0.0",
+      "source": "./plugins/failure-review",
+      "category": "productivity"
+    },
+    {
+      "name": "coding-practices",
+      "description": "Concept checklists for writing and reviewing code: Python, databases/data pipelines, and agentic/LLM workflows (orchestrators, tool calls, structured output, API calls).",
+      "version": "1.0.0",
+      "source": "./plugins/coding-practices",
+      "category": "productivity"
+    }
+  ]
+}

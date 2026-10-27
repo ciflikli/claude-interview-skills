@@ -1,0 +1,9 @@
+{
+  "name": "edd",
+  "version": "1.0.0",
+  "description": "Expectation-Driven Development, a lightweight TDD for AI-built code.",
+  "author": {
+    "name": "ciflikli"
+  },
+  "license": "MIT"
+}

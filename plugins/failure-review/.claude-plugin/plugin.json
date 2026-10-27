@@ -1,0 +1,9 @@
+{
+  "name": "failure-review",
+  "version": "1.0.0",
+  "description": "Fast review of a diff for the ways it breaks in production: re-runs, partial failure and crashes, duplicates, bad input, flaky dependencies, concurrency and locking, ordering, resource limits, secrets/PII.",
+  "author": {
+    "name": "ciflikli"
+  },
+  "license": "MIT"
+}

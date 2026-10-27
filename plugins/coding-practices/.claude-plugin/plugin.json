@@ -1,0 +1,9 @@
+{
+  "name": "coding-practices",
+  "version": "1.0.0",
+  "description": "Concept checklists for writing and reviewing code: Python, databases/data pipelines, and agentic/LLM workflows (orchestrators, tool calls, structured output, API calls).",
+  "author": {
+    "name": "ciflikli"
+  },
+  "license": "MIT"
+}

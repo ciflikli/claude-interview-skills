@@ -1,0 +1,9 @@
+{
+  "name": "interview-mode",
+  "version": "1.0.0",
+  "description": "Start a time-boxed live coding session (interview, take-home walkthrough, timed demo).",
+  "author": {
+    "name": "ciflikli"
+  },
+  "license": "MIT"
+}

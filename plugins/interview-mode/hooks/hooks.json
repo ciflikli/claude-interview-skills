@@ -1,0 +1,16 @@
+{
+  "description": "Injects the interview countdown into each prompt (silent when no timer runs).",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/skills/interview-mode/scripts/interview-timer.sh\" hook",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

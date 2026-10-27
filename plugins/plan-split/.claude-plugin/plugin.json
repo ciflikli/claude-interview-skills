@@ -1,0 +1,9 @@
+{
+  "name": "plan-split",
+  "version": "1.0.0",
+  "description": "Split a feature or brief into parallel workstreams that several agents (Claude subagents or Codex) can build at once without blocking each other.",
+  "author": {
+    "name": "ciflikli"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "minimal",
+  "version": "1.0.0",
+  "description": "Minimal-output mode for time-boxed, high-pressure sessions (live coding interviews, pairing, demos).",
+  "author": {
+    "name": "ciflikli"
+  },
+  "license": "MIT"
+}
